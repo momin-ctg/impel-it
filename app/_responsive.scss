@@ -1,0 +1,110 @@
+//Responsive Stylesheet
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .wrap {
+    min-width: 1200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .content {
+    width: 75%;
+    padding: 2%;
+    float: left;
+  }
+
+  .sidebar {
+    width: 25%;
+    padding: 2%;
+    float: right;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .wrap {
+    min-width: 768px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .content {
+    width: 100%;
+    padding: 2%;
+    float: left;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 2%;
+    float: right;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .wrap {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .content {
+    width: 100%;
+    padding: 2%;
+    float: left;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 2%;
+    float: left;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .wrap {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .content {
+    width: 100%;
+    padding: 2%;
+    float: left;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 2%;
+    float: left;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrap {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .content {
+    width: 100%;
+    padding: 2%;
+    float: left;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 2%;
+  }
+
+}
+
+
+
+
+
