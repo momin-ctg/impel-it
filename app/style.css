@@ -1,8 +1,9 @@
 /*
-Template Name: Impel ItSolution Test
+Template Name: Impel It-Solution Test
 Author: Md Abdul Momin
 Author URI: http://stackoverflow.com/users/4672474/md-abdul-momin?tab=profile
 */
+@import url("https://fonts.googleapis.com/css?family=Lato");
 /*basic Reset Code*/
 * {
   margin: 0;
@@ -38,7 +39,7 @@ figcaption {
   text-align: center; }
 
 body {
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 14px;
   background: #fffcf6;
   line-height: 1.2em; }
