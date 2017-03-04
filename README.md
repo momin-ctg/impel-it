@@ -16,5 +16,7 @@ This is single page template designed for  __blog/article__ .
 
 For design research I always focus on present and last two years industry demand trends like color, typography, consistency, visual appealing, visual hierarchy.
  >I have also specific bookmark and newsletter for specific design/tools/technology
+ 
+ >Image Credit - _Unspalash_
 
 
