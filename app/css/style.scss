@@ -201,17 +201,12 @@ img {
     font-size: 16px;
   }
   a:hover {
-    background: #f8f8f8;
-    color: #757575;
+    background: #d7ddd8;
+    color: #000000;
   }
 }
 
-.blog_title h2 {
-  border-bottom: 8px solid #F57170;
-  margin-bottom: 80px;
-  padding-bottom: 15px;
-}
-
+/*TODO: BEM Methodology Implemented*/
 .ind_blog {
   padding: 10px;
   border-radius: 4px;
@@ -225,9 +220,9 @@ img {
     h2 {
       font-size: 38px;
       line-height: 1.5em;
-      color: #757575;
+      color: #454545;
     }
-    border-bottom: 1px solid #dddddd;
+
     li {
       margin-bottom: 15px;
       color: #f2f2f2;
@@ -246,6 +241,13 @@ img {
   &--content {
     font-size: 18px;
     line-height: 1.4em;
+    figure {
+      margin-bottom: 15px;
+    }
+    p {
+      color: #757575;
+      text-align: justify;
+    }
   }
   &--footer {
     padding: 25px 0;
@@ -268,11 +270,6 @@ img {
   width: 50%;
   float: right;
   text-align: right;
-}
-
-.blog_news p {
-  color: #242424;
-  text-align: justify;
 }
 
 .blog_news_cat small {

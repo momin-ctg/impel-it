@@ -167,14 +167,10 @@ img {
     display: block;
     font-size: 16px; }
   .sidebar a:hover {
-    background: #f8f8f8;
-    color: #757575; }
+    background: #d7ddd8;
+    color: #000000; }
 
-.blog_title h2 {
-  border-bottom: 8px solid #F57170;
-  margin-bottom: 80px;
-  padding-bottom: 15px; }
-
+/*TODO: BEM Methodology Implemented*/
 .ind_blog {
   padding: 10px;
   border-radius: 4px;
@@ -182,26 +178,29 @@ img {
   margin-bottom: 50px; }
   .ind_blog article {
     padding: 10px; }
-  .ind_blog--header {
-    border-bottom: 1px solid #dddddd; }
-    .ind_blog--header h2 {
-      font-size: 38px;
-      line-height: 1.5em;
-      color: #757575; }
-    .ind_blog--header li {
-      margin-bottom: 15px;
-      color: #f2f2f2;
-      list-style: none;
-      float: left;
-      margin-right: 10px; }
-      .ind_blog--header li a {
-        color: #adadad;
-        font-size: 12px; }
-        .ind_blog--header li a:hover {
-          color: yellowgreen; }
+  .ind_blog--header h2 {
+    font-size: 38px;
+    line-height: 1.5em;
+    color: #454545; }
+  .ind_blog--header li {
+    margin-bottom: 15px;
+    color: #f2f2f2;
+    list-style: none;
+    float: left;
+    margin-right: 10px; }
+    .ind_blog--header li a {
+      color: #adadad;
+      font-size: 12px; }
+      .ind_blog--header li a:hover {
+        color: yellowgreen; }
   .ind_blog--content {
     font-size: 18px;
     line-height: 1.4em; }
+    .ind_blog--content figure {
+      margin-bottom: 15px; }
+    .ind_blog--content p {
+      color: #757575;
+      text-align: justify; }
   .ind_blog--footer {
     padding: 25px 0; }
   .ind_blog--winter {
@@ -217,10 +216,6 @@ img {
   width: 50%;
   float: right;
   text-align: right; }
-
-.blog_news p {
-  color: #242424;
-  text-align: justify; }
 
 .blog_news_cat small {
   color: #adadad; }

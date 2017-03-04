@@ -1,4 +1,7 @@
 ###Test Project for Impel It Solution
+![lukkien](http://i.imgur.com/zNaCUs2.png)
+>BEM Methodology has been implemented
+
 
 This is single page template designed for  __blog/article__ .
 
