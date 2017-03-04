@@ -39,12 +39,14 @@ a, a:hover {
 figcaption {
   text-align: center; }
 
+/*Start Typography*/
 body {
   font-family: 'Lato', Arial, sans-serif;
   font-size: 14px;
   background: #fffcf6;
   line-height: 1.2em; }
 
+/*End typography*/
 .logo_area {
   border-top: 5px solid #4cae4c;
   background: #267871;
@@ -55,7 +57,7 @@ body {
   font-weight: 800;
   text-transform: capitalize;
   line-height: 1.2em;
-  vertical-align: baseline;
+  vertical-align: middle;
   display: block;
   color: #ffffff;
   padding: 0 30px; }
@@ -90,7 +92,7 @@ body {
     background-color: #4cae4c;
     color: #ffffff; }
   .ubtn--summer {
-    background: #ff4206;
+    background: #ff733e;
     color: #ffffff; }
   .ubtn--big {
     padding: 8px 20px;
