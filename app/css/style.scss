@@ -261,6 +261,22 @@ img {
   }
 }
 
+.featured {
+  background: yellowgreen;
+  padding: 0 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  position: relative;
+  a {
+    color: #fff !important;
+  }
+}
+
+.addLi {
+  margin-bottom: 0;
+}
+
 .category_leftalign {
   width: 50%;
   float: left;

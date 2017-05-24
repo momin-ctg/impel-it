@@ -6,8 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0">
     <title>Impel It Solutions</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+    </style>
+
 </head>
 <body>
+
 
 <!--Start logo & navigation-->
 <div class="logo_area">
@@ -53,8 +59,9 @@
                         <div class="ind_blog ind_blog--summer">
                             <article>
                                 <div class="ind_blog--header">
-                                    <h2>Lorem ipsum dolor sit amet.</h2>
-                                    <ul>
+                                    <h2 id="featured" onmouseover="featuredTag();" onmouseout="nofeaturedTag();">
+                                        Lorem ipsum dolor sit amet.</h2>
+                                    <ul id="addLi">
                                         <li><a href="">Author | <span>Momin</span></a></li>
                                         <li><a href="">Published | <span>20-16-2017</span></a></li>
                                     </ul>
@@ -372,6 +379,23 @@
     <p>&copy; 2017 Impel It Solutions</p>
 </div>
 <!--End footer Area-->
+
+
+<script>
+
+    function featuredTag() {
+        var text = document.getElementById('featured');
+        var addStyle = document.getElementById('addLi');
+        addStyle.innerHTML = "<li><a >Author | <span>Momin</span></a></li> <li><a>Published | <span>20-16-2017</span></a></li><li class='featured'><a>Featured</a></li>";
+    }
+
+    function nofeaturedTag() {
+        var text = document.getElementById('featured');
+        var addStyle = document.getElementById('addLi');
+        addStyle.innerHTML = "<li><a >Author | <span>Momin</span></a></li> <li><a>Published | <span>20-16-2017</span></a></li>";
+
+    }
+</script>
 
 </body>
 </html>
