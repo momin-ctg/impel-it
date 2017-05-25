@@ -166,7 +166,6 @@ img {
 /*sidebar*/
 .sidebar {
   background: #ffffff;
-  padding: 10px;
   border-radius: 4px;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
   margin-top: 22px;
@@ -203,6 +202,23 @@ img {
   a:hover {
     background: #d7ddd8;
     color: #000000;
+  }
+}
+
+.featured_post {
+
+  h2 {
+    margin-top: 50px;
+    background: #ff733e;
+  }
+
+  h3 {
+    padding: 6px 0;
+  }
+
+  figure{
+    padding:20px 0;
+    display: block;
   }
 }
 
@@ -269,7 +285,7 @@ img {
   border-radius: 2px;
   position: relative;
   a {
-    color: #fff !important;
+    color: #ffffff !important;
   }
 }
 

@@ -47,7 +47,30 @@
                         <li><a href="">Upcoming</a></li>
                     </ul>
                 </div>
+                <div class="col">
+                    <div class="featured_post">
+                        <h2>Featured Post</h2>
+                        <figure>
+                            <img src="http://localhost:63342/impel-it/app/image/two.jpg" alt="">
+                            <figcaption>
+                                <h3>Lorem ipsum dolor sit amet</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, assumenda enim
+                                    est et iusto quos!</p>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="http://localhost:63342/impel-it/app/image/four.jpg" alt="">
+                            <figcaption>
+                                <h3>Lorem ipsum dolor sit amet</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, assumenda enim
+                                    est et iusto quos!</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
+
+
         </div>
         <!--End Sidebar-->
 
@@ -384,13 +407,11 @@
 <script>
 
     function featuredTag() {
-        var text = document.getElementById('featured');
         var addStyle = document.getElementById('addLi');
         addStyle.innerHTML = "<li><a >Author | <span>Momin</span></a></li> <li><a>Published | <span>20-16-2017</span></a></li><li class='featured'><a>Featured</a></li>";
     }
 
     function nofeaturedTag() {
-        var text = document.getElementById('featured');
         var addStyle = document.getElementById('addLi');
         addStyle.innerHTML = "<li><a >Author | <span>Momin</span></a></li> <li><a>Published | <span>20-16-2017</span></a></li>";
 
