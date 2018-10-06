@@ -95,9 +95,8 @@ body {
 }
 
 .momin-profile-caption {
-
   h3 {
-    color: #757575;
+    color: #ffffff;
   }
 }
 
@@ -117,7 +116,7 @@ body {
 
   .momin-location {
     display: flex;
-    color: darken(#757575, 10%)
+    color: darken(#ffffff, 10%)
   }
   .momin-email {
     display: flex;
@@ -129,7 +128,7 @@ body {
         width: 16px;
         height: auto;
       }
-      color: #757575;
+      color: #ffffff;
       text-decoration: underline;
     }
   }
@@ -427,11 +426,11 @@ img {
   display: block;
   width: 100%;
   overflow: hidden;
-  background: #f8f8f8;
+  background: transparent;
   p {
     text-align: center;
     padding: 15px 0;
-    color: #0074ff;
+    color: #ffffff;
     font-size: 14px;
   }
 }

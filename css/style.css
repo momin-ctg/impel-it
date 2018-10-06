@@ -72,7 +72,7 @@ body {
   border-radius: 50%; }
 
 .momin-profile-caption h3 {
-  color: #757575; }
+  color: #ffffff; }
 
 .momin-address {
   display: inline-flex;
@@ -86,13 +86,13 @@ body {
       height: auto; }
   .momin-address .momin-location {
     display: flex;
-    color: #5c5c5c; }
+    color: #e6e6e6; }
   .momin-address .momin-email {
     display: flex;
     justify-content: center;
     align-items: center; }
     .momin-address .momin-email a {
-      color: #757575;
+      color: #ffffff;
       text-decoration: underline; }
       .momin-address .momin-email a img {
         display: inline-block;
@@ -327,11 +327,11 @@ img {
   display: block;
   width: 100%;
   overflow: hidden;
-  background: #f8f8f8; }
+  background: transparent; }
   .footer p {
     text-align: center;
     padding: 15px 0;
-    color: #0074ff;
+    color: #ffffff;
     font-size: 14px; }
 
 /*End Blog Page Area*/
