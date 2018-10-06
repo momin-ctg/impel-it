@@ -83,33 +83,88 @@ body {
 
 .momin-profile-picture {
   img {
+    border: 10px solid #ececec;
+    margin-bottom: 15px;
     width: 120px;
     height: 120px;
     object-fit: cover;
     border-radius: 50%;
-    margin: 0 auto;
   }
 }
 
+.momin-profile-caption {
 
+  h3 {
+    color: #757575;
+  }
+}
 
+//Profile Address
+.momin-address {
+  display: inline-flex;
+  justify-content: center;
+  margin: 20px 0;
+  span {
+    margin-right: 10px;
+    img {
+      display: inline-block;
+      width: 16px;
+      height: auto;
+    }
+  }
 
+  .momin-location {
+    display: flex;
+    color: darken(#757575, 10%)
+  }
+  .momin-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      img {
+        display: inline-block;
+        width: 16px;
+        height: auto;
+      }
+      color: #757575;
+      text-decoration: underline;
+    }
+  }
+}
+
+//Profile Navigation
+.momin-profile-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 25px 0;
+  a {
+    display: inline-block;
+    padding: 15px 35px;
+    background: yellowgreen;
+    color: #fcfcfc;
+    border-radius: 4px;
+    &:not(:last-child) {
+      display: inline-block;
+      margin-right: 15px;
+    }
+  }
+
+}
 
 //Social Profile
 
-.momin-social-profile{
+.momin-social-profile {
   display: flex;
   justify-content: space-between;
-  a:not(:last-child){
+  a:not(:last-child) {
     margin-right: 10px;
-    img{
+    img {
       width: 48px;
       height: 48px;
     }
   }
 }
-
-
 
 .logo_area {
   border-top: 5px solid #4cae4c;

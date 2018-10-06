@@ -62,11 +62,54 @@ body {
   flex-direction: column; }
 
 .momin-profile-picture img {
+  border: 10px solid #ececec;
+  margin-bottom: 15px;
   width: 120px;
   height: 120px;
   object-fit: cover;
-  border-radius: 50%;
-  margin: 0 auto; }
+  border-radius: 50%; }
+
+.momin-profile-caption h3 {
+  color: #757575; }
+
+.momin-address {
+  display: inline-flex;
+  justify-content: center;
+  margin: 20px 0; }
+  .momin-address span {
+    margin-right: 10px; }
+    .momin-address span img {
+      display: inline-block;
+      width: 16px;
+      height: auto; }
+  .momin-address .momin-location {
+    display: flex;
+    color: #5c5c5c; }
+  .momin-address .momin-email {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .momin-address .momin-email a {
+      color: #757575;
+      text-decoration: underline; }
+      .momin-address .momin-email a img {
+        display: inline-block;
+        width: 16px;
+        height: auto; }
+
+.momin-profile-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 25px 0; }
+  .momin-profile-nav a {
+    display: inline-block;
+    padding: 15px 35px;
+    background: yellowgreen;
+    color: #fcfcfc;
+    border-radius: 4px; }
+    .momin-profile-nav a:not(:last-child) {
+      display: inline-block;
+      margin-right: 15px; }
 
 .momin-social-profile {
   display: flex;
