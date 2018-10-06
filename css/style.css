@@ -50,8 +50,7 @@ body {
 .momin-home-card-area {
   width: 100%;
   height: calc(100vh - 70px);
-  overflow: hidden;
-  background: #fcfcfc; }
+  overflow: hidden; }
 
 .momin-home-card {
   height: calc(100vh - 70px);
