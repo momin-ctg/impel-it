@@ -91,6 +91,26 @@ body {
   }
 }
 
+
+
+
+
+//Social Profile
+
+.momin-social-profile{
+  display: flex;
+  justify-content: space-between;
+  a:not(:last-child){
+    margin-right: 10px;
+    img{
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
+
+
+
 .logo_area {
   border-top: 5px solid #4cae4c;
   background: #267871;

@@ -68,6 +68,15 @@ body {
   border-radius: 50%;
   margin: 0 auto; }
 
+.momin-social-profile {
+  display: flex;
+  justify-content: space-between; }
+  .momin-social-profile a:not(:last-child) {
+    margin-right: 10px; }
+    .momin-social-profile a:not(:last-child) img {
+      width: 48px;
+      height: 48px; }
+
 .logo_area {
   border-top: 5px solid #4cae4c;
   background: #267871;
