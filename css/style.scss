@@ -86,17 +86,22 @@ body {
 .momin-profile-picture {
   img {
     border: 10px solid #ececec;
-    margin-bottom: 15px;
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     object-fit: cover;
     border-radius: 50%;
+    margin: 0 auto 15px;
   }
 }
 
 .momin-profile-caption {
   h3 {
-    color: #ffffff;
+    color: #757575;
+    text-align: center;
+    a{
+      color:#757575;
+      border-bottom: 1px solid darken(#757575, 2%);
+    }
   }
 }
 
@@ -116,19 +121,18 @@ body {
 
   .momin-location {
     display: flex;
-    color: darken(#ffffff, 10%)
+    color: darken(#757575, 10%)
   }
   .momin-email {
     display: flex;
     justify-content: center;
-    align-items: center;
     a {
       img {
         display: inline-block;
         width: 16px;
         height: auto;
       }
-      color: #ffffff;
+      color: #757575;
       text-decoration: underline;
     }
   }
@@ -142,7 +146,7 @@ body {
   a {
     display: inline-block;
     padding: 15px 35px;
-    background: yellowgreen;
+    background: #cccd55;
     color: #fcfcfc;
     border-radius: 4px;
     &:not(:last-child) {
@@ -430,7 +434,7 @@ img {
   p {
     text-align: center;
     padding: 15px 0;
-    color: #ffffff;
+    color: #757575  ;
     font-size: 14px;
   }
 }
